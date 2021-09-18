@@ -5,13 +5,13 @@
     },
     "dependencies": {},
     "devDependencies": {
-        "@types/react": "^17.0.21",
-        "esbuild": "^0.12.25",
-        "eslint": "^7.32.0",
-        "esmo": "^0.9.1",
-        "rimraf": "^3.0.2",
-        "tsup": "^4.14.0",
-        "typescript": "^4.4.2"
+        "@types/react": "17.0.21",
+        "esbuild": "0.12.28",
+        "eslint": "7.32.0",
+        "esmo": "0.9.1",
+        "rimraf": "3.0.2",
+        "tsup": "4.14.0",
+        "typescript": "4.4.3"
     },
     "name": "react-props",
     "version": "1.0.0",
