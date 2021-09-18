@@ -1,0 +1,7 @@
+lockfileVersion: 5.3
+
+specifiers:
+  react-props-x: file:..
+
+dependencies:
+  react-props-x: link:..
