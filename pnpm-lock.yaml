@@ -1,22 +1,22 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@types/react': ^17.0.21
-  esbuild: ^0.12.25
-  eslint: ^7.32.0
-  esmo: ^0.9.1
-  rimraf: ^3.0.2
-  tsup: ^4.14.0
-  typescript: ^4.4.2
-
-devDependencies:
   '@types/react': 17.0.21
-  esbuild: 0.12.25
+  esbuild: 0.12.28
   eslint: 7.32.0
   esmo: 0.9.1
   rimraf: 3.0.2
-  tsup: 4.14.0_typescript@4.4.2
-  typescript: 4.4.2
+  tsup: 4.14.0
+  typescript: 4.4.3
+
+devDependencies:
+  '@types/react': 17.0.21
+  esbuild: 0.12.28
+  eslint: 7.32.0
+  esmo: 0.9.1
+  rimraf: 3.0.2
+  tsup: 4.14.0_typescript@4.4.3
+  typescript: 4.4.3
 
 packages:
 
@@ -345,20 +345,20 @@ packages:
   /esbuild-node-loader/0.3.1:
     resolution: {integrity: sha512-75xPOySulti9R5LwYOMmKiwHyXGr/f89I7UkHolLxRqeBiUNqcyCmNTjv+fO2WV9G3f7LDKVZJlbWoYh5LBpfQ==}
     dependencies:
-      esbuild: 0.12.25
+      esbuild: 0.12.28
     dev: true
 
-  /esbuild-register/3.0.0_esbuild@0.12.25:
+  /esbuild-register/3.0.0_esbuild@0.12.28:
     resolution: {integrity: sha512-No7U3ZUd6gPrrC6gqdb3XFcf2lNqzn8nvQXcgcyOl8szMVuN6YUvOplnmakxWyogI9d8SiJMl0uzBzJck+Aoxw==}
     peerDependencies:
       esbuild: '>=0.12 <1'
     dependencies:
-      esbuild: 0.12.25
+      esbuild: 0.12.28
       jsonc-parser: 3.0.0
     dev: true
 
-  /esbuild/0.12.25:
-    resolution: {integrity: sha512-woie0PosbRSoN8gQytrdCzUbS2ByKgO8nD1xCZkEup3D9q92miCze4PqEI9TZDYAuwn6CruEnQpJxgTRWdooAg==}
+  /esbuild/0.12.28:
+    resolution: {integrity: sha512-pZ0FrWZXlvQOATlp14lRSk1N9GkeJ3vLIwOcUoo3ICQn9WNR4rWoNi81pbn6sC1iYUy7QPqNzI3+AEzokwyVcA==}
     hasBin: true
     requiresBuild: true
     dev: true
@@ -452,9 +452,9 @@ packages:
     hasBin: true
     dependencies:
       cross-spawn: 7.0.3
-      esbuild: 0.12.25
+      esbuild: 0.12.28
       esbuild-node-loader: 0.3.1
-      esbuild-register: 3.0.0_esbuild@0.12.25
+      esbuild-register: 3.0.0_esbuild@0.12.28
     dev: true
 
   /espree/7.3.1:
@@ -1161,7 +1161,7 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /tsup/4.14.0_typescript@4.4.2:
+  /tsup/4.14.0_typescript@4.4.3:
     resolution: {integrity: sha512-77rWdzhikTP9mQ34XMRzK83tw++LF6f4ox/HNERlgesB7g6g5VQ1iJlueG9O0P9HAZGVKavUwyoZv0+322p6rg==}
     hasBin: true
     peerDependencies:
@@ -1174,7 +1174,7 @@ packages:
       chalk: 4.1.2
       chokidar: 3.5.2
       debug: 4.3.2
-      esbuild: 0.12.25
+      esbuild: 0.12.28
       execa: 5.1.1
       globby: 11.0.4
       joycon: 3.0.1
@@ -1183,7 +1183,7 @@ packages:
       rollup: 2.56.3
       sucrase: 3.20.0
       tree-kill: 1.2.2
-      typescript: 4.4.2
+      typescript: 4.4.3
     transitivePeerDependencies:
       - supports-color
       - ts-node
@@ -1201,8 +1201,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /typescript/4.4.2:
-    resolution: {integrity: sha512-gzP+t5W4hdy4c+68bfcv0t400HVJMMd2+H9B7gae1nQlBzCqvrXX+6GL/b3GAgyTH966pzrZ70/fRjwAtZksSQ==}
+  /typescript/4.4.3:
+    resolution: {integrity: sha512-4xfscpisVgqqDfPaJo5vkd+Qd/ItkoagnHpufr+i2QCHBsNYp+G7UAoyFl8aPtx879u38wPV65rZ8qbGZijalA==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
