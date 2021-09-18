@@ -18,7 +18,8 @@ jobs:
       - uses: pnpm/action-setup@v2.0.1
         with:
           version: 6.14.6
-          run_install: true
+          run_install: |
+            - args: []
       - name: Build
         run: yarn build
       - uses: JS-DevTools/npm-publish@v1
