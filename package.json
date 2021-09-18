@@ -33,10 +33,10 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+ssh://git@github.com/HikaruEgashira/props.git"
+        "url": "git+ssh://git@github.com/HikaruEgashira/react-props-x.git"
     },
     "bugs": {
-        "url": "https://github.com/HikaruEgashira/props/issues"
+        "url": "https://github.com/HikaruEgashira/react-props-x/issues"
     },
-    "homepage": "https://github.com/HikaruEgashira/props#readme"
+    "homepage": "https://github.com/HikaruEgashira/react-props-x#readme"
 }

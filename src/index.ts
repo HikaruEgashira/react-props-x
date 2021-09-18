@@ -1,11 +1,28 @@
 import React from "react";
 
-export type PX<
-    T extends React.FC<any> | React.Component | keyof JSX.IntrinsicElements,
-    U = {}
-> = U &
+/**
+ * 1. tag ... `<a>, <button>` → `"a", "button"`
+ * 2. Class Component ... `class Link extends React.Component { ... }` → `Link`
+ * 3. Functional Component ... `const Link = (props) => { ... }` → `typeof Link`
+ */
+type ReactComponent =
+    | keyof JSX.IntrinsicElements
+    | React.Component
+    | React.FC<any>;
+
+/**
+ * @example
+ * const Link = (props: PX<"a">) => {
+ *   return <a href={props.href}>{props.children}</a>;
+ * };
+ *
+ * const MyButtonPrimary = (props: PX<typeof MyButton>) => {
+ *   return <MyButton {...props} className="text-primary" />;
+ * };
+ */
+export type PX<T extends ReactComponent, U = {}> = U &
     (T extends React.Component<infer V>
-        ? T
+        ? V
         : T extends React.FC<infer V>
         ? React.PropsWithChildren<V>
         : T extends keyof JSX.IntrinsicElements
@@ -17,7 +34,14 @@ export type PX<
             : never
         : never);
 
-export type FCX<
-    T extends React.FC<any> | React.Component | keyof JSX.IntrinsicElements,
-    U = {}
-> = React.FC<PX<T, U>>;
+/**
+ * @example
+ * const Link: FCX<"a"> = (props) => {
+ *   return <a href={props.href}>{props.children}</a>;
+ * };
+ *
+ * const MyButtonPrimary: FCX<typeof MyButton> = (props) => {
+ *   return <MyButton {...props} className="text-primary" />;
+ * };
+ */
+export type FCX<T extends ReactComponent, U = {}> = React.FC<PX<T, U>>;
