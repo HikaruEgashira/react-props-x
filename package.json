@@ -13,7 +13,7 @@
         "typescript": "^4.4.2"
     },
     "name": "react-props-x",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Provide React util. FCX & PX",
     "keywords": [
         "react"
