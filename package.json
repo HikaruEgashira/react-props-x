@@ -23,12 +23,6 @@
     "files": [
         "dist"
     ],
-    "size-limit": [
-        {
-            "path": "dist/index.js",
-            "limit": "4500 ms"
-        }
-    ],
     "author": "HikaruEgashira",
     "license": "MIT",
     "repository": {
