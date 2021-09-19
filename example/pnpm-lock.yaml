@@ -1,7 +1,42 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@types/react-pdf': 5.0.6
   react-props-x: file:..
 
 dependencies:
+  '@types/react-pdf': 5.0.6
   react-props-x: link:..
+
+packages:
+
+  /@types/pdfjs-dist/2.7.4:
+    resolution: {integrity: sha512-X4CpJgsDr44/xq/SK8NukTV2uyRAMz9dXAVHMUtJrBPtpf4CYnbQevmD95G9fbNwsjJNItOlgsS+yECrBJLUHw==}
+    dev: false
+
+  /@types/prop-types/15.7.4:
+    resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
+    dev: false
+
+  /@types/react-pdf/5.0.6:
+    resolution: {integrity: sha512-2gnA08yUwKA3PY6936YCIhlzG7xBJ2NdH6k7MCkAq4JLGMcBWJwtrkNjghicm22uS0j7IQmNDOs5/fEHWtJFFQ==}
+    dependencies:
+      '@types/pdfjs-dist': 2.7.4
+      '@types/react': 17.0.21
+    dev: false
+
+  /@types/react/17.0.21:
+    resolution: {integrity: sha512-GzzXCpOthOjXvrAUFQwU/svyxu658cwu00Q9ugujS4qc1zXgLFaO0kS2SLOaMWLt2Jik781yuHCWB7UcYdGAeQ==}
+    dependencies:
+      '@types/prop-types': 15.7.4
+      '@types/scheduler': 0.16.2
+      csstype: 3.0.9
+    dev: false
+
+  /@types/scheduler/0.16.2:
+    resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
+    dev: false
+
+  /csstype/3.0.9:
+    resolution: {integrity: sha512-rpw6JPxK6Rfg1zLOYCSwle2GFOOsnjmDYDaBwEcwoOg4qlsIVCN789VkBZDJAGi4T07gI4YSutR43t9Zz4Lzuw==}
+    dev: false
