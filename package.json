@@ -5,7 +5,7 @@
     "dependencies": {},
     "devDependencies": {
         "@types/react": "17.0.24",
-        "esbuild": "0.12.28",
+        "esbuild": "0.12.29",
         "eslint": "7.32.0",
         "esmo": "0.9.1",
         "rimraf": "3.0.2",
