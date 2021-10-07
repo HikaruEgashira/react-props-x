@@ -6,7 +6,7 @@ specifiers:
   eslint: 7.32.0
   esmo: 0.10.1
   rimraf: 3.0.2
-  tsup: 5.3.0
+  tsup: 5.4.0
   typescript: 4.4.3
 
 devDependencies:
@@ -15,7 +15,7 @@ devDependencies:
   eslint: 7.32.0
   esmo: 0.10.1
   rimraf: 3.0.2
-  tsup: 5.3.0_typescript@4.4.3
+  tsup: 5.4.0_typescript@4.4.3
   typescript: 4.4.3
 
 packages:
@@ -612,12 +612,6 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
-
-  /esbuild/0.12.28:
-    resolution: {integrity: sha512-pZ0FrWZXlvQOATlp14lRSk1N9GkeJ3vLIwOcUoo3ICQn9WNR4rWoNi81pbn6sC1iYUy7QPqNzI3+AEzokwyVcA==}
-    hasBin: true
-    requiresBuild: true
-    dev: true
 
   /esbuild/0.13.3:
     resolution: {integrity: sha512-98xovMLKnyhv3gcReUuAEi5Ig1rK6SIgvsJuBIcfwzqGSEHsV8UJjMlmkhHoHMf9XZybMpE9Zax8AA8f7i2hlQ==}
@@ -1463,8 +1457,8 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /tsup/5.3.0_typescript@4.4.3:
-    resolution: {integrity: sha512-/LZTuAj1Lhh7iXBhtWTWjPodtmOkg6HnhdWo+sl4JftJTAJqnxnHerOiFYjPeA5RIhcaFc2w2Sho1rGLJ7rLhw==}
+  /tsup/5.4.0_typescript@4.4.3:
+    resolution: {integrity: sha512-wm52TUJzDCvF9dJ3TxYtoJg8L7EjSYsOsH+jZhMMXfk1qZn6CdxFStwzMnwhyducdMBXHQNl7wZn+ioIhJoCHA==}
     hasBin: true
     peerDependencies:
       typescript: ^4.2.3
@@ -1476,7 +1470,7 @@ packages:
       chalk: 4.1.2
       chokidar: 3.5.2
       debug: 4.3.2
-      esbuild: 0.12.28
+      esbuild: 0.13.4
       execa: 5.1.1
       globby: 11.0.4
       joycon: 3.0.1
