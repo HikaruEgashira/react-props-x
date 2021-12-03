@@ -4,12 +4,12 @@
     },
     "dependencies": {},
     "devDependencies": {
-        "@types/react": "17.0.27",
-        "esbuild": "0.14.0",
+        "@types/react": "17.0.37",
+        "esbuild": "0.14.1",
         "eslint": "8.3.0",
-        "esmo": "0.12.0",
+        "esmo": "0.12.1",
         "rimraf": "3.0.2",
-        "tsup": "5.10.0",
+        "tsup": "5.10.1",
         "typescript": "4.5.2"
     },
     "name": "react-props-x",
