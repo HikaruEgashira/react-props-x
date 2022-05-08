@@ -1,11 +1,11 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@types/react-pdf': 5.7.1
+  '@types/react-pdf': 5.7.2
   react-props-x: file:..
 
 dependencies:
-  '@types/react-pdf': 5.7.1
+  '@types/react-pdf': 5.7.2
   react-props-x: link:..
 
 packages:
@@ -14,8 +14,8 @@ packages:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
     dev: false
 
-  /@types/react-pdf/5.7.1:
-    resolution: {integrity: sha512-c62RYvnwM8GGiikzJBFYecKpOS8aWKNu6BXHTqmBCNu0r5GungGJFLkW+V0kM/W3HgfPylmXvqqUQ/efSw/Ojg==}
+  /@types/react-pdf/5.7.2:
+    resolution: {integrity: sha512-6cUselXlQSNd9pMswJGvHqki3Lq0cnls/3hNwrFizdDeHBAfTFXTScEBObfGPznEmtO2LvmZMeced43BV9Wbog==}
     dependencies:
       '@types/react': 17.0.21
       pdfjs-dist: 2.10.377
