@@ -4,8 +4,8 @@
     },
     "dependencies": {},
     "devDependencies": {
-        "@types/react": "18.0.14",
-        "esbuild": "0.14.48",
+        "@types/react": "18.0.15",
+        "esbuild": "0.14.49",
         "eslint": "8.19.0",
         "esmo": "0.16.3",
         "rimraf": "3.0.2",
