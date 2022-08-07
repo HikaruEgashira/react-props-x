@@ -4,9 +4,9 @@
     },
     "dependencies": {},
     "devDependencies": {
-        "@types/react": "18.0.15",
-        "esbuild": "0.14.51",
-        "eslint": "8.20.0",
+        "@types/react": "18.0.16",
+        "esbuild": "0.14.53",
+        "eslint": "8.21.0",
         "esmo": "0.16.3",
         "rimraf": "3.0.2",
         "tsup": "6.2.1",
