@@ -1,6 +1,6 @@
 {
     "dependencies": {
         "react-props-x": "file:..",
-        "@types/react-pdf": "5.7.2"
+        "@types/react-pdf": "5.7.3"
     }
 }
