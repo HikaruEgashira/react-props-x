@@ -5,7 +5,7 @@ specifiers:
   esbuild: 0.15.12
   eslint: 8.26.0
   esmo: 0.16.3
-  rimraf: 3.0.2
+  rimraf: 4.0.7
   tsup: 6.3.0
   typescript: 4.8.4
 
@@ -14,7 +14,7 @@ devDependencies:
   esbuild: 0.15.12
   eslint: 8.26.0
   esmo: 0.16.3
-  rimraf: 3.0.2
+  rimraf: 4.0.7
   tsup: 6.3.0_typescript@4.8.4
   typescript: 4.8.4
 
@@ -1381,6 +1381,12 @@ packages:
     hasBin: true
     dependencies:
       glob: 7.1.7
+    dev: true
+
+  /rimraf/4.0.7:
+    resolution: {integrity: sha512-CUEDDrZvc0swDgVdXGiv3FcYYQMpJxjvSGt85Amj6yU+MCVWurrLCeLiJDdJPHCzNJnwuebBEdcO//eP11Xa7w==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /rollup/2.75.3:
