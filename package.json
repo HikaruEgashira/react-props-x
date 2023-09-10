@@ -9,7 +9,7 @@
         "eslint": "8.26.0",
         "esmo": "0.16.3",
         "rimraf": "5.0.1",
-        "tsup": "6.3.0",
+        "tsup": "7.2.0",
         "typescript": "5.0.4"
     },
     "name": "react-props-x",
