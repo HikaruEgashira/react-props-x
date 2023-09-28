@@ -4,13 +4,13 @@
     },
     "dependencies": {},
     "devDependencies": {
-        "@types/react": "18.0.24",
-        "esbuild": "0.15.12",
-        "eslint": "8.26.0",
-        "esmo": "0.16.3",
-        "rimraf": "5.0.1",
-        "tsup": "6.3.0",
-        "typescript": "5.0.4"
+        "@types/react": "18.2.23",
+        "esbuild": "0.19.4",
+        "eslint": "8.50.0",
+        "esmo": "0.17.0",
+        "rimraf": "5.0.5",
+        "tsup": "6.7.0",
+        "typescript": "5.2.2"
     },
     "name": "react-props-x",
     "version": "0.0.2",
